@@ -7,41 +7,26 @@
         ]
       },
       "locked": {
-        "lastModified": 1748225455,
-        "narHash": "sha256-AzlJCKaM4wbEyEpV3I/PUq5mHnib2ryEy32c+qfj6xk=",
+        "lastModified": 1753140376,
+        "narHash": "sha256-7lrVrE0jSvZHrxEzvnfHFE/Wkk9DDqb+mYCodI5uuB8=",
         "owner": "nix-community",
         "repo": "disko",
-        "rev": "a894f2811e1ee8d10c50560551e50d6ab3c392ba",
+        "rev": "545aba02960caa78a31bd9a8709a0ad4b6320a5c",
         "type": "github"
       },
       "original": {
         "owner": "nix-community",
         "repo": "disko",
-        "type": "github"
-      }
-    },
-    "nixos-facter-modules": {
-      "locked": {
-        "lastModified": 1743671943,
-        "narHash": "sha256-7sYig0+RcrR3sOL5M+2spbpFUHyEP7cnUvCaqFOBjyU=",
-        "owner": "numtide",
-        "repo": "nixos-facter-modules",
-        "rev": "58ad9691670d293a15221d4a78818e0088d2e086",
-        "type": "github"
-      },
-      "original": {
-        "owner": "numtide",
-        "repo": "nixos-facter-modules",
         "type": "github"
       }
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1748662220,
-        "narHash": "sha256-7gGa49iB9nCnFk4h/g9zwjlQAyjtpgcFkODjcOQS0Es=",
+        "lastModified": 1753399495,
+        "narHash": "sha256-7XG/QBqhrYOyA2houjRTL2NMa7IKZZ/somBqr+Q/6Wo=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "59138c7667b7970d205d6a05a8bfa2d78caa3643",
+        "rev": "0d00f23f023b7215b3f1035adb5247c8ec180dbc",
         "type": "github"
       },
       "original": {
@@ -51,11 +36,23 @@
         "type": "github"
       }
     },
+    "nixpkgs-local": {
+      "locked": {
+        "lastModified": 1753630208,
+        "narHash": "sha256-b/a/ldM/h7SkfRUMtLhKQqOKle5p8nQx3aUthdR11JE=",
+        "path": "/Users/mober/projects/nixpkgs",
+        "type": "path"
+      },
+      "original": {
+        "path": "/Users/mober/projects/nixpkgs",
+        "type": "path"
+      }
+    },
     "root": {
       "inputs": {
         "disko": "disko",
-        "nixos-facter-modules": "nixos-facter-modules",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "nixpkgs-local": "nixpkgs-local"
       }
     }
   },
